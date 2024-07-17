@@ -1,0 +1,31 @@
+.navigation {
+    &__list {
+        @include flex(row, nowrap, flex-start, center);
+        width: 100%;
+        gap: 30px;
+    }
+
+    &__link {
+        font-family: $font-main;
+        @include text(14px, 400, $color-title, 24px);
+        &::after {
+            display: block;
+            content: '';
+            width: 0;
+            border-bottom: 3px solid $color-red-bg;
+            -webkit-transition: width 0.3s ease;
+            -o-transition: width 0.3s ease;
+            transition: width 0.3s ease;
+        }
+
+        &:hover::after,
+        &:focus::after {
+            width: calc(100% + 2px);
+        }
+
+        &:focus {
+            outline: none;
+        }
+    }
+
+}

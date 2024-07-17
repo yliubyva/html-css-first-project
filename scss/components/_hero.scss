@@ -1,0 +1,19 @@
+.hero {
+    margin-top: 260px;
+    margin-bottom: 150px;
+    @extend .container;
+    &__container {
+        max-width: 523px;
+    }
+
+    &__title {
+        font-family: $font-secondary;
+        @include text(44px, 400, $color-title, 52px);
+    }
+
+    &__description {
+        @extend %style-text;
+        margin: 20px 0 50px;
+    }
+}
+
