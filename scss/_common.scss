@@ -10,7 +10,8 @@
 }
 
 body {
-  @include background-image('assets/bg-body.png', top, contain);
+  // background-image: url(/assets/bg-body.png)
+  @include background-image('../assets/bg-body.png', top, contain);
 }
 
 
