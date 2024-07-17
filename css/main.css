@@ -163,7 +163,7 @@ i {
   margin-bottom: 120px;
 }
 .section--info {
-  background-image: url("/assets/statistic-image.png");
+  background-image: url("../assets/statistic-image.png");
   background-position: left;
   background-size: 570px;
   background-repeat: no-repeat;
@@ -173,7 +173,7 @@ i {
 .section--quote {
   padding: 50px 35px 50px;
   height: 400px;
-  background-image: url("/assets/bg-quote.png");
+  background-image: url("../assets/bg-quote.png");
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -185,13 +185,13 @@ i {
 }
 .section--screensaver {
   max-width: 970px;
-  background-image: url("/assets/tablet.svg");
+  background-image: url("../assets/tablet.svg");
   background-position: top;
   background-size: contain;
   background-repeat: no-repeat;
 }
 .section--promises {
-  background-image: url("/assets/features-background.png");
+  background-image: url("../assets/features-background.png");
   background-position: left;
   background-size: 600px;
   background-repeat: no-repeat;
@@ -362,19 +362,19 @@ i {
   z-index: 1;
 }
 .section__item--bg-1 {
-  background-image: url("/assets/bg-reviews-1.png");
+  background-image: url("../assets/bg-reviews-1.png");
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
 }
 .section__item--bg-2 {
-  background-image: url("/assets/bg-reviews-2.png");
+  background-image: url("../assets/bg-reviews-2.png");
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
 }
 .section__item--bg-3 {
-  background-image: url("/assets/bg-reviews-3.png");
+  background-image: url("../assets/bg-reviews-3.png");
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
