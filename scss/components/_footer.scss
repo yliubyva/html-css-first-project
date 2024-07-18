@@ -1,0 +1,43 @@
+.footer {
+  @extend .container;
+  @include flex(row, wrap, space-between, center);
+  padding: 30px 0;
+  border-top: 1px solid $color-grey;
+  font-family: $font-main;
+  @media screen and (max-width: 769px) {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    gap: 20px;
+  }
+
+  &__copyright,
+  &__credits-text {
+    @include text(14px, 300, $color-text, 26px);
+  }
+
+  &__credits-text {
+    margin-right: 12px;
+  }
+
+  &__credits-author,
+  &__link {
+    @include text(14px, 400, $color-title, 24px);
+    &:hover,
+    &:focus {
+      opacity: 0.6;
+    }
+
+    &:focus {
+      outline: none;
+    }
+  }
+
+  &__link:nth-of-type(1) {
+    margin-right: 32px;
+  }
+}

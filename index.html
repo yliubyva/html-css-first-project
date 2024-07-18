@@ -1,12 +1,257 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="css/main.css" />
-    <title>Document</title>
-  </head>
-  <body>
-    
-  </body>
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="css/main.css" />
+  <link rel="icon" type="image/x-icon" href="assets/favicon.ico">
+  <title>Solis</title>
+</head>
+
+<body>
+  <header class="header">
+    <div class="header__container">
+      <a href="" class="link-logo">
+        <img src="assets/logo.svg" alt="logo">
+      </a>
+      <input type="checkbox" id="menu" class="burger__input header__burger-input">
+      <nav class="navigation header__navigation">
+        <ul class="navigation__list">
+          <li class="navigation__item">
+            <a href="#" class="navigation__link link">
+              Home
+            </a>
+          </li>
+          <li class="navigation__item">
+            <a href="#" class="navigation__link link">
+              About
+            </a>
+          </li>
+          <li class="navigation__item">
+            <a href="#" class="navigation__link link">
+              Products
+            </a>
+          </li>
+          <li class="navigation__item">
+            <a href="#" class="navigation__link link">
+              Use Cases
+            </a>
+          </li>
+          <li class="navigation__item">
+            <a href="#" class="navigation__link link">
+              Pricing
+            </a>
+          </li>
+          <li class="navigation__item">
+            <a href="#" class="navigation__link link">
+              Resources
+            </a>
+          </li>
+        </ul>
+      </nav>
+      <label for="menu" class="burger header__burger"></label>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="hero__container">
+        <h1 class="hero__title">A peer-to-peer stablecoin <i>clearinghouse</i> for the new economy</h1>
+        <p class="hero__description">We are bringing real solutions to the payments world by leveraging public
+          blockchains.</p>
+        <button class="button hero__button">join now</button>
+      </div>
+    </section>
+
+    <section class="section section--info">
+      <div class="section__content section__content--info ">
+        <ul class="section__list section__list--info">
+          <li class="section__item section__item--info">
+            <div class="section__item-value">
+              <span class="section__item-symbol">$</span>
+              <span class="section__item-amount">1 tril </span>
+            </div>
+            <p class="section__item-description">Market cap potential</p>
+            <div class="divider"></div>
+          </li>
+          <li class="section__item section__item--info">
+            <div class="section__item-value">
+              <span class="section__item-symbol">$</span>
+              <span class="section__item-amount">3.65 mil</span>
+            </div>
+            <p class="section__item-description">Deposited to platform</p>
+            <div class="divider"></div>
+          </li>
+          <li class="section__item section__item--info">
+            <div class="section__item-value">
+              <span class="section__item-amount">12</span>
+            </div>
+            <p class="section__item-description">Stablecoins</p>
+            <div class="divider divider--hidden"></div>
+          </li>
+        </ul>
+
+        <div class="section__inner-content">
+          <p class="section__description section__description--info">Solis group is a new venture created with
+            investments from and collaboration with XBTO International, XBTO Ventures and Phil Potter, formerly of
+            bitfinex. Stablehouse is intended to launch a first-of-its-kind clearing house for stablecoins that seeks to
+            promote the next phase of the market’s development. <br> <br>
+            The API-enabled, centralized platform addresses the key issues of inconsistent liquidity, stability and
+            accessibility which are currently preventing the stablecoin market from reaching critical mass. </p>
+
+          <button class="button">Contact sales</button>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section--benefits">
+      <ul class="section__list section__list--benefits">
+        <li class="section__item section__item--benefits">
+          <h2 class="section__item-title">
+            Qualified <i>traders</i> and liquidty <i>solutions</i>
+          </h2>
+          <p class="section__item-description">Trade easily and efficiently between 12 stablecoins, including USDT,
+            TrueUSD, Dai, Eurs and Gemini Dollar.</p>
+        </li>
+        <li class="section__item section__item--benefits">
+          <h2 class="section__item-title">
+            Settlement/OTC API and <i>integration</i>
+          </h2>
+          <p class="section__item-description">Integrate OTC operations and settlements using our efficient API.</p>
+        </li>
+        <li class="section__item section__item--benefits">
+          <h2 class="section__item-title">
+            The best <i>payments <br> solutions</i>
+          </h2>
+          <p class="section__item-description">For all stablecoin payments, from point-of-sale transactions to website
+            solutions. If you use stablecoins in your business, Stablehouse is for you.</p>
+        </li>
+        <li class="section__item section__item--benefits">
+          <h2 class="section__item-title">
+            <i>Treasury</i> and <i>returns</i> for stablecoin stores
+          </h2>
+          <p class="section__item-description">Automate your stablecoin store with instant payments and on-the-fly
+            conversion between different stablecoins.</p>
+        </li>
+      </ul>
+    </section>
+
+    <section class="section section--quote">
+      <blockquote class="section__blockquote">
+        Solis Group serves as a liquidity nexus that gives stablecoin issuers, holders and exchanges certainty over
+        access and liquidity
+        <footer class="section__author"><cite>Lennon Burnett, Solis Group CEO</cite></footer>
+      </blockquote>
+    </section>
+
+    <section class="section section--screensaver">
+      <div class="section__video-container">
+        <video src="assets/videoplayback.mp4" class="section__video" poster="assets/screensaver-video.png"
+          controls></video>
+      </div>
+
+
+      <div class="section__content">
+        <h2 class="section__title">A <i>powerful API</i>, easy to use user interface</h2>
+        <p class="section__description">Our API allows all members to interact with Stablehouse’s platform, from
+          effecting transfers to deposits, withdrawals, creation and redemption and reporting.</p>
+      </div>
+    </section>
+
+    <section class="section section--promises">
+      <div class="section__content section__content--promises">
+        <div class="section__text-container">
+          <h3 class="section__subtitle">On-Exchange Trading</h3>
+          <p class="section__description">Instant<br>
+            Passive Inventory earns fees</p>
+        </div>
+        <div class="section__text-container">
+          <h3 class="section__subtitle">On-Chain Swaps</h3>
+          <p class="section__description">Low Counterparty risk<br>
+            Direct transfers</p>
+        </div>
+        <div class="section__text-container">
+          <h3 class="section__subtitle">Time Settlement Swaps</h3>
+          <p class="section__description">LBTC / Lightning and other sidechain<br> swaps</p>
+        </div>
+        <button class="button button--border">join now</button>
+      </div>
+    </section>
+
+    <section class="section section--reviews">
+      <div class="section__content section__content--reviews">
+        <h2 class="section__title">Client <i>reviews</i></h2>
+        <p class="section__description">Happy clients, happy us. Read our client reviews about the work process and
+          results.</p>
+      </div>
+
+      <ul class="section__list section__list--reviews">
+        <li class="section__item section__item--reviews section__item--bg-1">
+          <div class="section__item-overlay"></div>
+          <p class="section__testimonial-text">Solis did a great job. Whether providing direct development support or
+            giving us the opportunity to make our development updates, Solis's web design expertise and support services
+            were top notch! It didn't take long to stand up our website, and we were pleased with the design and layout
+            of the graphics and information. </p>
+          <span class="section__testimonial-author">Dr. Jamika Burge</span>
+        </li>
+        <li class="section__item section__item--reviews section__item--bg-2">
+          <div class="section__item-overlay"></div>
+          <p class="section__testimonial-text">Solis is a cutting edge company and knows the importance of excellence.
+            Having been in business for 21 years, I know when I’ve found a competent professional and more importantly a
+            company with integrity. I highly recommend this company and am available for further reference if needed.
+          </p>
+          <span class="section__testimonial-author">Evie-Rose Prosse</span>
+        </li>
+        <li class="section__item section__item--reviews section__item--bg-3">
+          <div class="section__item-overlay"></div>
+          <p class="section__testimonial-text">I can’t say enough about how knowledgeable Toinette Rorie is in the area
+            of Web Development. She indeed is a developer and can build a site from scratch. She understands
+            functionality and is great at constructing a site that is robust and fully functioning. </p>
+          <span class="section__testimonial-author">Elvis Mooney</span>
+        </li>
+      </ul>
+    </section>
+    <section class="section section--contact">
+      <div class="section__content section__content--contact">
+        <div class="section__text-container section__text-container--contact">
+          <h2 class="section__title">Contact <i>our sales team</i></h2>
+          <p class="section__description">Our team is happy to answer your sales questions. Fill out the form and we’ll
+            be in touch as soon as possible.</p>
+        </div>
+
+        <form action="#" method="get" class="section__form form">
+          <label class="form__label">
+            <input class="input form__input" type="text" placeholder="Your name" name="name" id="name" required>
+          </label>
+
+          <label class="form__label">
+            <input class="input form__input" type="email" placeholder="Email" name="email" id="email" required>
+          </label>
+
+          <textarea class="input" id="text" name="text" rows="2" maxlength="100" minlength="10"
+            placeholder="Tell more" required></textarea>
+
+          <button class="button button--send-request">Send Request</button>
+        </form>
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="footer">
+
+    <p class="footer__copyright">© 2020 Solisgroup. All Rights Reserved.</p>
+
+    <div class="footer__credits">
+      <span class="footer__credits-text">made by</span>
+      <a href="" class="footer__credits-author">Zgraya.digital</a>
+    </div>
+    <div class="footer__links">
+      <a href="" class="footer__link">User Agreement</a>
+      <a href="" class="footer__link"> Privacy Policy</a>
+    </div>
+  </footer>
+</body>
+
 </html>
