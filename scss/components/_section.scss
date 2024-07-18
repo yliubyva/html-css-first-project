@@ -3,7 +3,7 @@
   margin-bottom: 120px;
 
   &--info {
-    @include background-image("../assets/statistic-image.png", left, 570px);
+    @include background-image("../assets/bg-info.webp", left, 570px);
     height: 670px;
     position: relative;
   }
@@ -11,7 +11,7 @@
   &--quote {
     padding: 50px 35px 50px;
     height: 400px;
-    @include background-image("../assets/bg-quote.png");
+    @include background-image("../assets/bg-quote.webp");
     @media screen and (min-width: 768px) {
       padding: 100px 0 100px 160px;
     }
@@ -23,7 +23,7 @@
   }
 
   &--promises {
-    @include background-image("../assets/features-background.png", left, 600px);
+    @include background-image("../assets/bg-features.webp", left, 600px);
     height: 540px;
     position: relative;
   }
@@ -178,15 +178,15 @@
     }
 
     &--bg-1 {
-      @include background-image("../assets/bg-reviews-1.png");
+      @include background-image("../assets/bg-reviews-1.webp");
     }
 
     &--bg-2 {
-      @include background-image("../assets/bg-reviews-2.png");
+      @include background-image("../assets/bg-reviews-2.webp");
     }
 
     &--bg-3 {
-      @include background-image("../assets/bg-reviews-3.png");
+      @include background-image("../assets/bg-reviews-3.webp");
     }
   }
 
