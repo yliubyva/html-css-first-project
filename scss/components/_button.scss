@@ -28,14 +28,11 @@
     &:focus {
         outline: none;
         &::before{
-            -webkit-transform: translateY(-6px);
-                -ms-transform: translateY(-6px);
-                    transform: translateY(-6px);
+            width: 0;
+            -webkit-transition: width 0.5s ease;
+            -o-transition: width 0.5s ease;
+            transition: width 0.5s ease-in-out;
         }
-    }
-
-    &:active::before {
-        width: 0;
     }
 
     &--border {

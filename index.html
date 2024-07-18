@@ -15,8 +15,8 @@
       <a href="" class="link-logo">
         <img src="assets/logo.svg" alt="logo">
       </a>
-
-      <nav class="navigation">
+      <input type="checkbox" id="menu" class="burger__input header__burger-input">
+      <nav class="navigation header__navigation">
         <ul class="navigation__list">
           <li class="navigation__item">
             <a href="#" class="navigation__link link">
@@ -50,6 +50,7 @@
           </li>
         </ul>
       </nav>
+      <label for="menu" class="burger header__burger"></label>
     </div>
   </header>
 
@@ -72,7 +73,7 @@
               <span class="section__item-amount">1 tril </span>
             </div>
             <p class="section__item-description">Market cap potential</p>
-            <div class="divider divider--green"></div>
+            <div class="divider"></div>
           </li>
           <li class="section__item section__item--info">
             <div class="section__item-value">
@@ -80,13 +81,14 @@
               <span class="section__item-amount">3.65 mil</span>
             </div>
             <p class="section__item-description">Deposited to platform</p>
-            <div class="divider divider--green"></div>
+            <div class="divider"></div>
           </li>
           <li class="section__item section__item--info">
             <div class="section__item-value">
               <span class="section__item-amount">12</span>
             </div>
             <p class="section__item-description">Stablecoins</p>
+            <div class="divider divider--hidden"></div>
           </li>
         </ul>
 

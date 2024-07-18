@@ -192,6 +192,10 @@
 
   &__inner-content {
     max-width: 400px;
+    @include flex(column, nowrap, flex-start, center);
+    @media screen and (min-width: 768px) {
+      display: block;
+    }
   }
 
   &__blockquote {

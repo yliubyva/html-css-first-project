@@ -1,13 +1,33 @@
 .navigation {
+    position: fixed;
+    top: $header-height;
+    width: 100%;
+    padding: 24px;
+    @media screen and (min-width:768px) {
+        padding: initial;
+        background-color: initial;
+        width: initial;
+        left: initial;
+        top: initial;
+        position: initial;
+        height: 24px;
+    }
     &__list {
-        @include flex(row, nowrap, flex-start, center);
-        width: 100%;
-        gap: 30px;
+        @include flex(column, nowrap, flex-start, center);
+        gap: 50px;
+        @media screen and (min-width: 768px) {
+            @include flex(row, nowrap, flex-start, center);
+            width: 100%;
+            gap: 30px;
+        }
     }
 
     &__link {
         font-family: $font-main;
-        @include text(14px, 400, $color-title, 24px);
+        @include text(14px, 400, $color-white, 24px);
+        @media screen and (min-width: 768px) {
+            color: $color-title;
+        }
         &::after {
             display: block;
             content: '';
